@@ -1,0 +1,13 @@
+<template name="183d921c">
+  <view class="_div data-v-3f9b8f4a map"><map class="_map data-v-3f9b8f4a content" id="map" longitude="111.172727" latitude="27.89882" scale="15" show-location markers="{{markers}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></map>
+    <view class="_div data-v-3f9b8f4a call">
+      <view class="_div data-v-3f9b8f4a wrapper" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+        <image src="/static/images/he.png" class="_image data-v-3f9b8f4a"></image> <label class="_span data-v-3f9b8f4a">呼叫新郎</label>
+      </view>
+      <view class="_div data-v-3f9b8f4a wrapper" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+        <image src="/static/images/she.png" class="_image data-v-3f9b8f4a"></image> <label class="_span data-v-3f9b8f4a">呼叫新娘</label>
+      </view>
+    </view>
+    <image class="_image data-v-3f9b8f4a footer" src="/static/images/grren-flower-line.png"></image>
+  </view>
+</template>

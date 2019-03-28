@@ -1,0 +1,32 @@
+<template name="7b68f592">
+  <view class="_div data-v-fbc3915e index">
+    <view class="_div data-v-fbc3915e box">
+      <swiper class="_swiper data-v-fbc3915e swiper" autoplay="{{true}}" circular="{{true}}" current="0" indicator-dots="{{true}}" vertical="{{true}}">
+        <block wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+          <swiper-item class="_swiper-item data-v-fbc3915e item">
+            <image mode="aspectFill" lazy-load="true" src="{{item}}" class="_image data-v-fbc3915e slide-image"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <image class="_image data-v-fbc3915e inv" src="/static/images/inv.png"></image>
+    <view class="_div data-v-fbc3915e bg-music" wx:if="{{isPlay}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <image src="/static/images/music_icon.png" class="_image data-v-fbc3915e musicImg music-icon"></image>
+      <image src="/static/images/music_play.png" class="_image data-v-fbc3915e music-play pauseImg"></image>
+    </view>
+    <view class="_div data-v-fbc3915e bg-music" wx:else bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <image src="/static/images/music_icon.png" class="_image data-v-fbc3915e musicImg"></image>
+      <image src="/static/images/music_play.png" class="_image data-v-fbc3915e music-play playImg"></image>
+    </view>
+    <view class="_div data-v-fbc3915e info" animation="{{animationData}}">
+      <view class="_div data-v-fbc3915e content">
+        <view class="_h1 data-v-fbc3915e">Mr. liu& Miss.liu</view>
+        <view class="_p data-v-fbc3915e">定于 2019年9月9日（星期一）中午12：00</view>
+        <view class="_p data-v-fbc3915e">农历 8月8日 中午十二点 举办婚礼</view>
+        <view class="_p data-v-fbc3915e">席设：新化县孟公镇孟公大酒店</view>
+        <view class="_p data-v-fbc3915e">地址：新化县孟公镇</view>
+        <image src="/static/images/we.png" class="_image data-v-fbc3915e img-footer"></image>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,3 @@
+<import src="/components/swiper.vue.wxml" /><template name="1c35d2f2">
+  <view class="_div data-v-22eb14b1 photo"><template data="{{...$root[$kk+'0'], $root}}" is="f58da540"></template></view>
+</template>

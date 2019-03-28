@@ -1,0 +1,4 @@
+<import src="/components/swiper.vue.wxml" />
+<import src="/components/video.vue.wxml" />
+<import src="/components/form.vue.wxml" />
+<import src="/components/formlist.vue.wxml" />

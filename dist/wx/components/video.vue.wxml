@@ -1,0 +1,7 @@
+<template name="73318d7a">
+  <view class="_div data-v-03e391cb section"><video id="myVideo" src="http://vt1.doubanio.com/201903251332/b216edf7460881052281465608f0c9fc/view/movie/M/402390886.mp4" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls bindtimeupdate="handleProxy" poster="https://img3.doubanio.com/view/photo/raw/public/p2413273686.jpg" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_video data-v-03e391cb"></video> <button class="_button data-v-03e391cb play" bindtap="handleProxy" wx:if="{{isPlay}}" data-eventid="{{'2'}}" data-comkey="{{$k}}">暂停</button><button class="_button data-v-03e391cb play" bindtap="handleProxy" wx:else data-eventid="{{'1'}}" data-comkey="{{$k}}">播放</button>
+    <view class="_div data-v-03e391cb btn-area"><input placeholder="请输入弹幕" value="{{danmu}}" bindinput="handleProxy" placeholder-style="color:#bbb" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_input data-v-03e391cb" /> <button bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_button data-v-03e391cb">点击生成弹幕</button>
+      <image src="/static/images/close1.png" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}" class="_image data-v-03e391cb"></image>
+    </view>
+  </view>
+</template>
