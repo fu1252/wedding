@@ -4,7 +4,7 @@
 
 ##体验过程
 
-####下载
+### 下载
 git clone git@github.com:fu1252/wedding.git
 或者直接下载zip
 # 进入文件夹安装依赖
