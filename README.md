@@ -2,21 +2,18 @@
 
 > 我的婚礼邀请函
 
-## Build Setup
+##体验过程
 
-``` bash
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
-
-# 安装依赖
-yarn
-
+####下载
+git clone git@github.com:fu1252/wedding.git
+或者直接下载zip
+# 进入文件夹安装依赖
+npm install
 # 开发时构建
-npm dev
+npm run dev
 
 # 打包构建
-npm build
+npm run build
 
 # 指定平台的开发时构建(微信、百度、头条、支付宝)
 npm dev:wx
